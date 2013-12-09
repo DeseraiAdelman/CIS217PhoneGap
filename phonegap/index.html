@@ -1,0 +1,406 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Mom and Pop's Pizza Palace!</title>
+
+    <meta name="viewport" content="width-device-width, inital-scale-1">
+    <link rel="stylesheet" href="http://code.jquery.com/mobile/1.2.1/jquery.mobile-1.2.1.min.css"/>
+    <link rel="stylesheet" href="styles.css">
+    <script src="http://code.jquery.com/jquery-1.8.3.min.js"></script>
+    <script src="http://code.jquery.com/ui/1.10.3/jquery-ui.js"></script>
+    <script src="http://code.jquery.com/mobile/1.2.1/jquery.mobile-1.2.1.min.js"></script>
+    <!--<script src="scripts.js"></script>-->
+</head>
+<body data-dave="red" id="bodyColor">
+<!--Main Page with have and some content-->
+<div data-role="page" id="MainPage">
+    <div data-role="header" data-id="navbar" data-position="" class="navbar">
+        <div data-role="navbar">
+            <ul>
+                <li><a href="#MainPage" class="ui-btn-active ui-state-persist"></a>Main</li>
+                <li><a href="#AboutUsPage"></a>About Us</li>
+                <li><a href="#menuPage"></a>Menu</li>
+                <li><a href="#orderPage"></a>Order</li>
+                <li><a href="#locationPage"></a>Locations</li>
+                <li><a href="#contactUsPage"></a>Contact Us</li>
+            </ul>
+        </div>
+    </div>
+
+    <div data-role="content">
+        <h1>Main Page</h1>
+
+        <p>
+            <strong style="color: red; font-weight: bolder; product: 50px">THIS SITE IS FOR DEMONSTRATION PURPOSES
+                ONLY!</strong>
+
+        </p>
+
+        <p>
+            This site is create for the sole purpose of classroom work and is not an actual working legitimate website.
+        </p>
+
+    </div>
+
+    <div data-role="footer" data-position="fixed">
+        <i>Copywrite Adelman Web Design &copy; 2013</i>
+    </div>
+</div>
+<!--End of Main Page -->
+
+<!--Start of my About us Page-->
+<div data-role="page" id="AboutUsPage">
+    <div data-role="header" data-id="navbar" data-position="" class="navbar">
+        <div data-role="navbar">
+            <ul>
+                <li><a href="#MainPage"></a>Main</li>
+                <li><a href="#AboutUsPage" class="ui-btn-active ui-state-persist"></a>About Us</li>
+                <li><a href="#menuPage"></a>Menu</li>
+                <li><a href="#orderPage"></a>Order</li>
+                <li><a href="#locationPage"></a>Locations</li>
+                <li><a href="#contactUsPage"></a>Contact Us</li>
+            </ul>
+        </div>
+    </div>
+
+    <div data-role="content">
+        <h1>About us page</h1>
+
+        <p>
+            Mom and Pop started their Pizza Business in their kitchen. One night while making supper for their children,
+            they discovered that they had a knack for making homemade "to-die-for" pizza! For the first few years, they
+            would serve friends and family these delicious pizza creations in their dining room three nights a week,
+            until at a friend's suggestion, they opened their first Pizza Palace.
+        </p>
+
+        <p>
+            Mom N Pop's Pizza Palace grew. With word of mouth spreading faster than any other form of advertising,
+            people from far away counties and even some far away countries came to take a taste of the homemade pizza
+            goodness.
+        </p>
+
+        <p>
+            Today, Mom N Pop are no longer cooking in the kitchen, but enjoying retirement! They are currently visiting
+            each of their Pizza Palaces, chatting with customers, employees, families, old friends and even making new
+            friends. If you see them in your restaurant, stop them and say "HI!".
+        </p>
+    </div>
+
+    <div data-role="footer" data-position="fixed">
+        <i>Copywrite Adelman Web Design &copy; 2013</i>
+    </div>
+
+</div>
+<!--End of About us Page-->
+
+<!--start of Menu page-->
+<div data-role="page" id="menuPage">
+    <div data-role="header" data-id="navbar" data-position="" class="navbar">
+        <div data-role="navbar">
+            <ul>
+                <li><a href="#MainPage"></a>Main</li>
+                <li><a href="#AboutUsPage"></a>About Us</li>
+                <li><a href="#menuPage" class="ui-btn-active ui-state-persist"></a>Menu</li>
+                <li><a href="#orderPage"></a>Order</li>
+                <li><a href="#locationPage"></a>Locations</li>
+                <li><a href="#contactUsPage"></a>Contact Us</li>
+            </ul>
+        </div>
+    </div>
+
+    <div data-role="content">
+
+        <h1>Menu Options</h1>
+
+        <h3>Choose your product:</h3>
+
+        <div data-product="1000" class="product">
+            <span data-name="thick">Thick </span>
+            <span data-price="0.50">0.50</span>
+            <span class="description"></span>
+        </div>
+        <div data-product="1000" class="product">
+            <span data-name="thin">Thin</span>
+            <span data-price='0.50'>0.50</span>
+            <span class="description"></span>
+        </div>
+
+        <div data-product="1200" class="product">
+            <span data-name="small">Small</span>
+            <span data-price="8.00">8.00</span>
+            <span class="description">6 slices</span>
+        </div>
+        <div data-product="1200" class="product">
+            <span data-name="medium">Medium</span>
+            <span data-price="10.00">10.00</span>
+            <span class="description">8 slices</span>
+        </div>
+        <div data-product="1200" class="product">
+            <span data-name="large">Large</span>
+            <span data-price="12.00">12.00</span>
+            <span class="description">10 slices</span>
+        </div>
+        <div data-product="1200" class="product">
+            <span data-name="family">Family</span>
+            <span data-price="15.00">15.00</span>
+            <span class="description">14 slices</span>
+        </div>
+
+        <div data-product="1500" class="product">
+            <span data-name="pepperoni">Pepperoni</span>
+            <span data-price="1.00">1.00</span>
+        </div>
+        <div data-product="1500" class="product">
+            <span data-name="beef">Beef</span>
+            <span data-price="1.00">1.00</span>
+        </div>
+        <div data-product="1500" class="product">
+            <span data-name="onions">Onions</span>
+            <span data-price="1.00">1.00</span>
+        </div>
+        <div data-product="1500" class="product">
+            <span data-name="peppers">Peppers</span>
+            <span data-price="1.00">1.00</span>
+        </div>
+        <div data-product="1500" class="product">
+            <span data-name="x-cheese">Extra Cheese</span>
+            <span data-price="1.00">1.00</span>
+        </div>
+
+        <div data-product="2000" class="drinks">
+            <span data-name="pepsi">Pepsi</span>
+            <span data-price="3.00">3.00</span>
+            <span class="description">2 Liter size</span>
+        </div>
+        <div data-product="2000" class="drinks">
+            <span data-name="root-beer">Root Beer</span>
+            <span data-price="3.00">3.00</span>
+            <span class="description">2 Liter size</span>
+        </div>
+        <div data-product="2000" class="drinks">
+            <span data-name="diet-pepsi">Diet Pepsi</span>
+            <span data-price="3.00">3.00</span>
+            <span class="description">2 Liter size</span>
+        </div>
+
+    </div>
+
+    <div id="cartDiv">
+
+    </div>
+
+    <div>
+        <p>
+            <button id="buyNow">Buy Now</button>
+        </p>
+    </div>
+    <div>
+        <button id="saveOrder">Save Order</button>
+    </div>
+    <div>
+        <button id="loadOrder">Load Order</button>
+    </div>
+
+    <div data-role="footer" data-position="fixed">
+        <i>Copywrite Adelman Web Design &copy; 2013</i>
+    </div>
+</div>
+<!--End of Menu Page-->
+
+<!--Start of Order Page-->
+<div data-role="page" id="orderPage">
+    <div data-role="header" data-id="navbar" data-position="" class="navbar">
+        <div data-role="navbar">
+            <ul>
+                <li><a href="#MainPage"></a>Main</li>
+                <li><a href="#AboutUsPage"></a>About Us</li>
+                <li><a href="#menuPage"></a>Menu</li>
+                <li><a href="#orderPage" class="ui-btn-active ui-state-persist"></a>Order</li>
+                <li><a href="#locationPage"></a>Locations</li>
+                <li><a href="#contactUsPage"></a>Contact Us</li>
+            </ul>
+        </div>
+    </div>
+
+    <div data-role="content">
+        <h1>Order Page</h1>
+
+        <div id="displayOrder">
+
+        </div>
+
+    <div data-role="footer" data-position="fixed">
+        <i>Copywrite Adelman Web Design &copy; 2013</i>
+    </div>
+    </div>
+<!--end of Order page-->
+<!--Start of Locations Page-->
+<div data-role="page" id="locationPage">
+    <div data-role="header" data-id="navbar" data-position="" class="navbar">
+        <div data-role="navbar">
+            <ul>
+                <li><a href="#MainPage"></a>Main</li>
+                <li><a href="#AboutUsPage"></a>About Us</li>
+                <li><a href="#menuPage"></a>Menu</li>
+                <li><a href="#orderPage"></a>Order</li>
+                <li><a href="#locationPage" class="ui-btn-active ui-state-persist"></a>Locations</li>
+                <li><a href="#contactUsPage"></a>Contact Us</li>
+            </ul>
+        </div>
+    </div>
+
+    <div data-role="content">
+        <h1>Location is Key</h1>
+
+        <p>
+            <script>
+                navigator.geolocation.getCurrentPosition(function (pos) {
+                    var lat = pos.coords.latitude;
+                    var lng = pos.coords.longitude;
+                    console.log(lat + " " + lng);
+                    $("#lat").text(lat);
+                    $("#lng").text(lng);
+                    var url = '<a href="http://maps.google.com/maps?q=' + lat + ', ' + lng + '">Your Location</a>'
+//                    saddr=
+
+                    var url = '<a href="http://maps.google.com/maps?daddr=Pizza+Hut,+3304+North+Nevada+Street,+Spokane,+WA+99207&saddr=' + lat + ', ' + lng + '">Your Location</a>'
+                    $("#url").append(url);
+
+                    var map = '<iframe width="360" height="360" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://maps.google.com/maps?daddr=Pizza+Hut,+3304+North+Nevada+Street,+Spokane,+WA+99207&amp;saddr=' + lat + ',' + lng +'&amp;ie=UTF8&amp;t=m&amp;geocode=FRw31wIdgTgA-Q%3BFSys1wIdurEA-SGSF4-H7rV7wSl16BgaKBmeVDGSF4-H7rV7wQ&amp;ll=47.673884,-117.410631&amp;spn=0.020806,0.030813&amp;z=14&amp;output=embed"></iframe><br /><small><a href="https://maps.google.com/maps?daddr=Pizza+Hut,+3304+North+Nevada+Street,+Spokane,+WA+99207&amp;saddr=47.65878000000001,+-117.426047&amp;ie=UTF8&amp;t=m&amp;geocode=FRw31wIdgTgA-Q%3BFSys1wIdurEA-SGSF4-H7rV7wSl16BgaKBmeVDGSF4-H7rV7wQ&amp;ll=47.673884,-117.410631&amp;spn=0.020806,0.030813&amp;z=14&amp;source=embed" style="color:#0000FF;text-align:left">View Larger Map</a></small>'
+                    $("#directionMap").html(map);
+                })
+            </script>
+            Latitude: <span id="lat"></span><br/>
+            Longitude: <span id="lng"></span><br/>
+            Url: <span id="url"></span><br/>
+
+            Display actual map HERE!
+        <div id="directionMap">
+
+        </div>
+        </p>
+
+
+    </div>
+
+    <div data-role="footer" data-position="fixed">
+        <i>Copywrite Adelman Web Design &copy; 2013</i>
+    </div>
+</div>
+<!--end of Locations Page-->
+<!--Start of Contact Page-->
+<div data-role="page" id="contactUsPage">
+    <div data-role="header" data-id="navbar" data-position="" class="navbar">
+        <div data-role="navbar">
+            <ul>
+                <li><a href="#MainPage"></a>Main</li>
+                <li><a href="#AboutUsPage"></a>About Us</li>
+                <li><a href="#menuPage"></a>Menu</li>
+                <li><a href="#orderPage"></a>Order</li>
+                <li><a href="#locationPage"></a>Locations</li>
+                <li><a href="#contactUsPage" class="ui-btn-active ui-state-persist"></a>Contact Us</li>
+            </ul>
+        </div>
+    </div>
+
+    <div data-role="content">
+        <h3>Contact Us Information</h3>
+
+        <p><!--using the pizza hut on Nevada for Geolocation purposes.-->
+            <strong>Mom N Pop's Pizza Palace</strong><br/>
+            3304 N. Nevada<br/>
+            Spokane, WA 99207<br/>
+            (123) 456-7890<br/>
+        </p>
+
+
+    </div>
+
+    <div data-role="footer" data-position="fixed">
+        <i>Copywrite Adelman Web Design &copy; 2013</i>
+    </div>
+</div>
+    </div>
+<!--end of Contact Us Page-->
+<script>
+
+
+    var cart = [];
+
+    function displayCart() {
+        var dispCart = $("#displayCart");
+        var cartDiv = $("#cartDiv");
+
+        cartDiv.html("");
+        var grandTotal = 0
+        for (var item in cart) {
+            var qty = cart[item].qty;
+            var price = cart[item].price;
+            var subtotal = qty * price;
+            grandTotal += subtotal;
+            cartDiv.append('<p>' + qty + ' : ' + cart[item].name + ' $' + price+ ' == $' + subtotal + '</p>');
+        }
+        ;
+        cartDiv.append('<p>Grand Total: $' + grandTotal.toFixed(2) + '</p>');
+        dispCart = cartDiv;
+    }
+    ;
+
+    $(document).ready(function () {
+//    working with Shopping cart stuff:
+        //add a buy button to each product
+        $('div[data-product]').each(function () {
+            $(this).append('<br /><button class="btnCart">Add to Cart</button>');
+        });
+        $('.btnCart').on("click", function (event) {
+            var pid = $(this).parent().data("product");
+            console.log(pid);
+            if (cart[pid]) {
+                cart[pid].qty += 1;
+            } else {
+                cart[pid] = new Object();
+                cart[pid].qty = 1;
+                cart[pid].pid = pid;
+                cart[pid].name = $(this).siblings("span").data("name");
+                cart[pid].price = $(this).siblings("span").next().data("price");
+            }
+
+            displayCart();
+
+        });
+        $('#buyNow').on("click", function (event) {
+            var buyUrl = "";
+            for (var item in cart) {
+                buyUrl += "&pid[]=" + item + "&qty[]=" + cart[item].qty;
+            }
+            $.getJSON('buy.php?' + buyUrl, function (data) {
+                $('#cartDiv').append(data);
+            });
+            <!--            console.log(buyUrl);-->
+            console.log("http://www.cis217-1.adelmanweb.com/buy.php?" + buyUrl);
+            $("#buyNow").parent().hide();
+        });
+        $("#saveOrder").on("click", function(event){
+            var cartStr= "[";
+            for(var item in cart){
+                cartStr += JSON.stringify(cart[item] ) + ",";
+            }
+            cartStr = cartStr.slice(0, -1);
+            cartStr += "]";
+            console.log(cartStr);
+            localStorage['cart'] = cartStr;
+        });
+        $("#loadOrder").on("click", function(){
+            cart = [];
+            var obj = JSON.parse( localStorage['cart'] );
+            for( var item in obj ){
+                pid = obj[ item ].pid;
+                cart[ pid ] = obj[ item ];
+
+            }
+            displayCart();
+        });
+    });
+</script>
+</body>
+</html>
